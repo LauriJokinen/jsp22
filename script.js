@@ -3,7 +3,7 @@
 //hae tiedot: OMENA
 document.querySelector("#omena").addEventListener("click", (event) => {      // lisätään on click kuuntelija
 
-  const poista = document.getElementById("#leffat");                      //ensimmäiseksi tyhjennetään leffat divin sisältö, tämä tyhjentää mahdolliset edelliset tulokset
+                                                                              //ensimmäiseksi tyhjennetään leffat divin sisältö, tämä tyhjentää mahdolliset edelliset tulokset
   leffat.textContent = null;
 
   var xhttp = new XMLHttpRequest();                                    //tehdään XMLHttpRequest objekti ja tarkistetaan valmius ennen kuin jatketaan
