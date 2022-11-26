@@ -48,7 +48,7 @@ document.querySelector("#omena").addEventListener("click", (event) => {      // 
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1039&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1039&dt", true); //XML get
   xhttp.send();
 })
 
@@ -100,7 +100,7 @@ document.querySelector("#sello").addEventListener("click", (event) => {      // 
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1038&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1038&dt", true); //XML get
   xhttp.send();
 })
 
@@ -152,7 +152,7 @@ document.querySelector("#itis").addEventListener("click", (event) => {      // l
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1045&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1045&dt", true); //XML get
   xhttp.send();
 })
 
@@ -204,7 +204,7 @@ document.querySelector("#kpalatsi").addEventListener("click", (event) => {      
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1031&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1031&dt", true); //XML get
   xhttp.send();
 })
 
@@ -256,7 +256,7 @@ document.querySelector("#maxim").addEventListener("click", (event) => {      // 
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1032&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1032&dt", true); //XML get
   xhttp.send();
 })
 
@@ -308,7 +308,7 @@ document.querySelector("#tpalatsi").addEventListener("click", (event) => {      
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1033&dt=25.11.2022", true); //XML get
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1033&dt", true); //XML get
   xhttp.send();
 })
 
@@ -360,6 +360,6 @@ document.querySelector("#flamingo").addEventListener("click", (event) => {      
 
       }
   };
-  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1013&dt=25.11.2022", true); //XML get  a
+  xhttp.open("GET", "https://www.finnkino.fi/xml/Schedule/?area=1013&dt", true); //XML get  a
   xhttp.send();
 })
